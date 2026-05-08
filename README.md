@@ -28,6 +28,11 @@ It supports NDAs, Employment Contracts, SaaS Terms, Partnership Agreements, Vend
 
 ---
 
+
+## 📸 Screenshots
+
+![LexAI Legal Contract Analyzer](docs/screenshots/lexai-analyzer.png)
+
 ## ✨ Features
 
 ### 🔍 AI-Powered Contract Analysis
