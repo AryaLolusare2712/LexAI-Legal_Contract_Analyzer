@@ -1,4 +1,4 @@
-# ⚖️ LexAI — Legal Contract Analyzer
+# LexAI — Legal Contract Analyzer
 
 <div align="center">
 
@@ -13,57 +13,57 @@
 
 ---
 
-## 🧠 What is LexAI?
+## What is LexAI?
 
 LexAI is an intelligent legal contract analysis tool that uses **Google Gemini 2.5 Flash** to automatically review and evaluate legal agreements. Instead of spending hours (or thousands of dollars) on legal reviews, LexAI transforms raw contract text into clear, structured risk reports in seconds.
 
 It supports NDAs, Employment Contracts, SaaS Terms, Partnership Agreements, Vendor Contracts, and Lease Agreements — and gives you:
 
-- 🔴 **Flagged risky clauses** with excerpts and suggested rewrites
-- 📊 **Industry benchmarking** to see how your contract stacks up
-- 📄 **Clause coverage analysis** to catch missing legal protections
-- 🎯 **A 0–100 risk score** with an interactive visual indicator
+-  **Flagged risky clauses** with excerpts and suggested rewrites
+-  **Industry benchmarking** to see how your contract stacks up
+-  **Clause coverage analysis** to catch missing legal protections
+-  **A 0–100 risk score** with an interactive visual indicator
 
-> ⚠️ **Disclaimer:** LexAI is an AI-assisted tool meant to help you understand contracts faster. It is **not a substitute for professional legal advice**. Always consult a qualified attorney before signing legally binding agreements.
+>  **Disclaimer:** LexAI is an AI-assisted tool meant to help you understand contracts faster. It is **not a substitute for professional legal advice**. Always consult a qualified attorney before signing legally binding agreements.
 
 ---
 
 
-## 📸 Screenshots
+##  Screenshots
 
 ![LexAI Legal Contract Analyzer](docs/screenshots/lexai-analyzer.png)
 
-## ✨ Features
+##  Features
 
-### 🔍 AI-Powered Contract Analysis
+###  AI-Powered Contract Analysis
 Paste any legal document and get structured JSON insights extracted via low-temperature LLM inference — ensuring consistent, reliable output every time.
 
-### ⚠️ Risk Detection System
+###  Risk Detection System
 Every problematic clause is classified by severity:
-- 🔴 **High** — Clauses that could expose you to major legal or financial liability
-- 🟡 **Medium** — Terms that deviate from fair practice and warrant negotiation
-- 🟢 **Low** — Minor concerns worth noting but not immediately alarming
+-  **High** — Clauses that could expose you to major legal or financial liability
+-  **Medium** — Terms that deviate from fair practice and warrant negotiation
+-  **Low** — Minor concerns worth noting but not immediately alarming
 
 Each flag includes the exact problematic excerpt, an explanation of the legal issue, the business impact, and a concrete suggested revision.
 
-### 📊 Industry Benchmarking
+###  Industry Benchmarking
 LexAI compares your contract's terms against market standards for its contract type, flagging deviations as:
-- ✅ **OK** — Aligns with standard practice
-- ⚠️ **Warning** — Deviates from norms, review recommended
-- ❌ **Critical** — Significantly below acceptable standards
+-  **OK** — Aligns with standard practice
+-  **Warning** — Deviates from norms, review recommended
+-  **Critical** — Significantly below acceptable standards
 
-### 📄 Clause Coverage Analysis
+###  Clause Coverage Analysis
 Detects the presence or absence of essential legal clauses. Missing a termination clause? No dispute resolution mechanism? LexAI will catch it.
 
-### 🎯 Risk Score Visualization
+###  Risk Score Visualization
 Generates an overall **0–100 risk score** rendered as an interactive SVG ring indicator — color-coded green to red based on severity.
 
-### 🎨 Professional Dark UI
+###  Professional Dark UI
 A custom-styled Streamlit interface with DM Serif + DM Sans typography, a dark `#0f0f13` background, and a multi-tab insights dashboard.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -76,7 +76,7 @@ A custom-styled Streamlit interface with DM Serif + DM Sans typography, a dark `
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Input (Contract Text)
@@ -113,15 +113,15 @@ User Input (Contract Text)
            ▼
   ┌────────────────────────────┐
   │  3-Tab Results Dashboard   │
-  │  ├── ⚠️ Risk Flags         │
-  │  ├── 📊 Template Comparison│
-  │  └── 📄 All Clauses        │
+  │  ├──  Risk Flags         │
+  │  ├──  Template Comparison│
+  │  └──  All Clauses        │
   └────────────────────────────┘
 ```
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -158,7 +158,7 @@ The app will open at `http://localhost:8501`.
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 streamlit>=1.35.0
@@ -168,7 +168,7 @@ pandas>=2.0.0
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 LexAI-Legal_Contract_Analyzer/
@@ -179,7 +179,7 @@ LexAI-Legal_Contract_Analyzer/
 
 ---
 
-## 🔮 Roadmap / Future Enhancements
+##  Roadmap / Future Enhancements
 
 The sidebar notes a planned production-grade stack:
 
@@ -192,7 +192,7 @@ The sidebar notes a planned production-grade stack:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! To get started:
 
@@ -204,7 +204,7 @@ Contributions are welcome! To get started:
 
 ---
 
-## 👤 Author
+##  Author
 
 **Arya Lolusare**
 - GitHub: [@AryaLolusare2712](https://github.com/AryaLolusare2712)
