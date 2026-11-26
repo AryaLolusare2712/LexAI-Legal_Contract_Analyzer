@@ -1,5 +1,15 @@
 # LexAI — Legal Contract Analyzer
 
+## Architecture
+
+```mermaid
+flowchart LR
+  U[Contract text or document] --> S[Streamlit interface]
+  S --> X[Text extraction]
+  X --> L[LLM contract analysis]
+  L --> O[Clauses, risks, and recommendations]
+```
+
 <div align="center">
 
 **AI-powered contract intelligence that detects legal risks, flags unfair clauses, and benchmarks agreements against industry standards.**
