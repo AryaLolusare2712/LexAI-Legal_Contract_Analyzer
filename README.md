@@ -1,5 +1,9 @@
 # LexAI — Legal Contract Analyzer
 
+## Project contribution
+
+Helps users review contracts faster by surfacing clauses, potential risks, and plain-language considerations from supplied legal text.
+
 ## Architecture
 
 ```mermaid
